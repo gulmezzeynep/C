@@ -13,14 +13,15 @@ int main(void)
     while ((c = getchar()) != EOF)
         if ( c >= '0' && c <= '9')
             ++ndigit[ c - '0'] ;
-        else if ( c == ' ' || c == '\t' || c == '\n' )
+        else if ( c == ' ' || c == '\n' || c == '\t' )
             ++nwhite ;
         else
             ++nother ;
 
-        printf("digits = ");
-        for ( i=0; i < 10; ++i)
-            printf("")
+    printf("digits = ");
+    for ( i=0; i < 10; ++i)
+        printf(" %d ", ndigit[i]);
+    printf("white space = %d, other = %d \n", nwhite, nother);
 
     return 0 ;
 }
