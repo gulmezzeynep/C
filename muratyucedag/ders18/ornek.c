@@ -1,3 +1,4 @@
+//int türündeki dizinin elemanlarını for döngüsü ile yazdıran kod.
 #include <stdio.h>
 #include <stdlib.h>
 

@@ -1,3 +1,4 @@
+//dizideki sayıların toplamını for döngüsü ile bulan kod.
 #include <stdio.h>
 #include <stdlib.h>
 
